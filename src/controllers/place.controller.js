@@ -4,8 +4,8 @@ const addPlace = async (req, res) => {
     //addPlace api logic here
 };
 
-const getAllPlace = async (req, res) => {
-    //getAllPlace api logic here
+const getAllPlaceByCategoryIdAndCityId = async (req, res) => {
+    //getAllPlaceByCategoryIdAndCityId api logic here
 };
 
 const getPlaceById = async (req, res) => {
@@ -23,7 +23,7 @@ const deletePlaceById = async (req, res) => {
 
 const PlaceController = {
     addPlace,
-    getAllPlace,
+    getAllPlaceByCategoryIdAndCityId,
     getPlaceById,
     updatePlaceById,
     deletePlaceById
